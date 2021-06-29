@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ho.tak.prj.map.GridMapper">
+
+	<select id="selectAll" resultType="ho.tak.prj.vo.GridVO">
+		select field,career,age,salary_desired from grid
+	</select>
+
+
+</mapper>
